@@ -1,0 +1,29 @@
+.folder {
+    /* width: 10px; */
+    /* height: 10px; */
+    /* background: red; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+  }
+
+.file {
+    /* width: 10px; */
+    /* height: 10px; */
+    /* background: blue; */
+    margin-top: 10px;    
+    margin-bottom: 10px;
+  }
+
+  input[type='checkbox']:checked~.folder{
+    display: block;
+  }
+
+  .ico {
+    margin-right: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(ic_folder_black_48dp_1x.png);
+  }
